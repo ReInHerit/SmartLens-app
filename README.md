@@ -17,6 +17,9 @@ The application is implemented using HTML, CSS and JavaScript. It is necessary t
 Artowrks and details info is stored in a MySQL database.
 Update the `./server/config.php` file to connect to the database. 
 
+## Compatibility
+The application has been tested on the following mobile operating systems: Android (since v. 13) and iOS (up to 18.1), using the default browsers of each OS (i.e. Chrome and Safari). 
+
 ## Selecting the CV method
 To select which CV method is used to recognize details (and thus how the interaction is implemented) it is necessary to uncomment one of the scripts at the bottom of the file camera-view.html.
 * getDetailsObjDet.js for Object Detection
